@@ -1,0 +1,178 @@
+body {
+  background: url('frutiger-aero.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.browser-frame {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  border: 3px solid #a6d0f5;
+  background-color: #f3fbff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.browser-bar {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: linear-gradient(to bottom, #dff1ff, #a6d0f5);
+  border-bottom: 1px solid #7bb3e4;
+}
+
+.back-btn {
+  font-size: 16px;
+  margin-right: 10px;
+  background: white;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.address-bar {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.nav-dropdowns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #d0eaff;
+  border: 1px solid #7bb3e4;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f3fbff;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1;
+  border-radius: 6px;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.main-window {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 10px;
+  background-color: #e3f3ff;
+  border-right: 2px solid #c7e3f7;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: block;
+  margin: 4px 0;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.main-panel {
+  flex: 1;
+  padding: 0 20px;
+  font-size: 14px;
+  min-width: 300px;
+}
+
+.banner-img {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.note-section {
+  background-color: #cce5ff;
+  border: 1px solid #99cfff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.note-section.green {
+  background-color: #d4fddc;
+  border: 1px solid #94f0b1;
+}
+
+.bubble-links {
+  margin-top: 20px;
+}
+
+.bubble-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.caption {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.media-panel {
+  width: 200px;
+  padding: 10px;
+  background-color: #f0faff;
+  border-left: 2px solid #c7e3f7;
+  text-align: center;
+}
+
+.music-icon {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.now-playing img {
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
